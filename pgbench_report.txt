@@ -1,0 +1,175 @@
+==== PostgreSQL Benchmarking Report 
+Test Run Date: 02-06-2025 16:57:58.29 
+ 
+dropping old tables...
+creating tables...
+generating data (client-side)...
+100000 of 5000000 tuples (2%) of pgbench_accounts done (elapsed 0.02 s, remaining 1.15 s)
+200000 of 5000000 tuples (4%) of pgbench_accounts done (elapsed 0.06 s, remaining 1.45 s)
+300000 of 5000000 tuples (6%) of pgbench_accounts done (elapsed 0.07 s, remaining 1.16 s)
+400000 of 5000000 tuples (8%) of pgbench_accounts done (elapsed 0.27 s, remaining 3.14 s)
+500000 of 5000000 tuples (10%) of pgbench_accounts done (elapsed 0.42 s, remaining 3.74 s)
+600000 of 5000000 tuples (12%) of pgbench_accounts done (elapsed 0.43 s, remaining 3.15 s)
+700000 of 5000000 tuples (14%) of pgbench_accounts done (elapsed 0.60 s, remaining 3.66 s)
+800000 of 5000000 tuples (16%) of pgbench_accounts done (elapsed 0.61 s, remaining 3.21 s)
+900000 of 5000000 tuples (18%) of pgbench_accounts done (elapsed 0.80 s, remaining 3.65 s)
+1000000 of 5000000 tuples (20%) of pgbench_accounts done (elapsed 0.97 s, remaining 3.87 s)
+1100000 of 5000000 tuples (22%) of pgbench_accounts done (elapsed 1.13 s, remaining 4.01 s)
+1200000 of 5000000 tuples (24%) of pgbench_accounts done (elapsed 1.30 s, remaining 4.12 s)
+1300000 of 5000000 tuples (26%) of pgbench_accounts done (elapsed 1.48 s, remaining 4.21 s)
+1400000 of 5000000 tuples (28%) of pgbench_accounts done (elapsed 1.50 s, remaining 3.86 s)
+1500000 of 5000000 tuples (30%) of pgbench_accounts done (elapsed 1.66 s, remaining 3.86 s)
+1600000 of 5000000 tuples (32%) of pgbench_accounts done (elapsed 1.85 s, remaining 3.93 s)
+1700000 of 5000000 tuples (34%) of pgbench_accounts done (elapsed 2.04 s, remaining 3.96 s)
+1800000 of 5000000 tuples (36%) of pgbench_accounts done (elapsed 2.18 s, remaining 3.87 s)
+1900000 of 5000000 tuples (38%) of pgbench_accounts done (elapsed 2.33 s, remaining 3.80 s)
+2000000 of 5000000 tuples (40%) of pgbench_accounts done (elapsed 2.48 s, remaining 3.71 s)
+2100000 of 5000000 tuples (42%) of pgbench_accounts done (elapsed 2.65 s, remaining 3.66 s)
+2200000 of 5000000 tuples (44%) of pgbench_accounts done (elapsed 2.78 s, remaining 3.54 s)
+2300000 of 5000000 tuples (46%) of pgbench_accounts done (elapsed 2.81 s, remaining 3.30 s)
+2400000 of 5000000 tuples (48%) of pgbench_accounts done (elapsed 3.11 s, remaining 3.37 s)
+2500000 of 5000000 tuples (50%) of pgbench_accounts done (elapsed 3.40 s, remaining 3.40 s)
+2600000 of 5000000 tuples (52%) of pgbench_accounts done (elapsed 3.65 s, remaining 3.37 s)
+2700000 of 5000000 tuples (54%) of pgbench_accounts done (elapsed 3.95 s, remaining 3.37 s)
+2800000 of 5000000 tuples (56%) of pgbench_accounts done (elapsed 4.35 s, remaining 3.42 s)
+2900000 of 5000000 tuples (58%) of pgbench_accounts done (elapsed 4.61 s, remaining 3.34 s)
+3000000 of 5000000 tuples (60%) of pgbench_accounts done (elapsed 4.86 s, remaining 3.24 s)
+3100000 of 5000000 tuples (62%) of pgbench_accounts done (elapsed 4.87 s, remaining 2.98 s)
+3200000 of 5000000 tuples (64%) of pgbench_accounts done (elapsed 5.16 s, remaining 2.91 s)
+3300000 of 5000000 tuples (66%) of pgbench_accounts done (elapsed 5.44 s, remaining 2.80 s)
+3400000 of 5000000 tuples (68%) of pgbench_accounts done (elapsed 5.71 s, remaining 2.69 s)
+3500000 of 5000000 tuples (70%) of pgbench_accounts done (elapsed 5.98 s, remaining 2.56 s)
+3600000 of 5000000 tuples (72%) of pgbench_accounts done (elapsed 6.25 s, remaining 2.43 s)
+3700000 of 5000000 tuples (74%) of pgbench_accounts done (elapsed 6.66 s, remaining 2.34 s)
+3800000 of 5000000 tuples (76%) of pgbench_accounts done (elapsed 6.92 s, remaining 2.18 s)
+3900000 of 5000000 tuples (78%) of pgbench_accounts done (elapsed 6.93 s, remaining 1.95 s)
+4000000 of 5000000 tuples (80%) of pgbench_accounts done (elapsed 7.27 s, remaining 1.82 s)
+4100000 of 5000000 tuples (82%) of pgbench_accounts done (elapsed 7.56 s, remaining 1.66 s)
+4200000 of 5000000 tuples (84%) of pgbench_accounts done (elapsed 7.89 s, remaining 1.50 s)
+4300000 of 5000000 tuples (86%) of pgbench_accounts done (elapsed 8.25 s, remaining 1.34 s)
+4400000 of 5000000 tuples (88%) of pgbench_accounts done (elapsed 8.51 s, remaining 1.16 s)
+4500000 of 5000000 tuples (90%) of pgbench_accounts done (elapsed 8.80 s, remaining 0.98 s)
+4600000 of 5000000 tuples (92%) of pgbench_accounts done (elapsed 9.15 s, remaining 0.80 s)
+4700000 of 5000000 tuples (94%) of pgbench_accounts done (elapsed 9.51 s, remaining 0.61 s)
+4800000 of 5000000 tuples (96%) of pgbench_accounts done (elapsed 9.55 s, remaining 0.40 s)
+4900000 of 5000000 tuples (98%) of pgbench_accounts done (elapsed 10.00 s, remaining 0.20 s)
+5000000 of 5000000 tuples (100%) of pgbench_accounts done (elapsed 10.33 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 14.88 s (drop tables 0.19 s, create tables 0.02 s, client-side generate 11.14 s, vacuum 0.44 s, primary keys 3.09 s).
+ 
+Default TPC-B test 
+pgbench (17.0)
+starting vacuum...end.
+transaction type: <builtin: TPC-B (sort of)>
+scaling factor: 50
+query mode: simple
+number of clients: 10
+number of threads: 2
+maximum number of tries: 1
+duration: 60 s
+number of transactions actually processed: 180108
+number of failed transactions: 0 (0.000%)
+latency average = 3.311 ms
+initial connection time = 390.092 ms
+tps = 3020.652091 (without initial connection time)
+ 
+Read-only test 
+pgbench (17.0)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 50
+query mode: simple
+number of clients: 20
+number of threads: 4
+maximum number of tries: 1
+duration: 60 s
+number of transactions actually processed: 1408961
+number of failed transactions: 0 (0.000%)
+latency average = 0.843 ms
+initial connection time = 641.626 ms
+tps = 23729.033013 (without initial connection time)
+ 
+Write-heavy test 
+pgbench (17.0)
+starting vacuum...end.
+transaction type: <builtin: simple update>
+scaling factor: 50
+query mode: simple
+number of clients: 15
+number of threads: 3
+maximum number of tries: 1
+duration: 60 s
+number of transactions actually processed: 186419
+number of failed transactions: 0 (0.000%)
+latency average = 4.801 ms
+initial connection time = 335.653 ms
+tps = 3124.385693 (without initial connection time)
+ 
+Latency + Progress report test 
+pgbench (17.0)
+starting vacuum...end.
+progress: 10.0 s, 1666.1 tps, lat 5.781 ms stddev 16.240, 0 failed
+progress: 20.0 s, 2253.1 tps, lat 4.425 ms stddev 10.309, 0 failed
+progress: 30.0 s, 1967.8 tps, lat 5.081 ms stddev 15.724, 0 failed
+progress: 40.0 s, 1827.0 tps, lat 5.451 ms stddev 15.090, 0 failed
+progress: 50.0 s, 1661.0 tps, lat 5.940 ms stddev 15.849, 0 failed
+progress: 60.0 s, 2259.8 tps, lat 4.485 ms stddev 10.896, 0 failed
+transaction type: <builtin: TPC-B (sort of)>
+scaling factor: 50
+query mode: simple
+number of clients: 10
+number of threads: 2
+maximum number of tries: 1
+duration: 60 s
+number of transactions actually processed: 116395
+number of failed transactions: 0 (0.000%)
+latency average = 5.118 ms
+latency stddev = 13.967 ms
+initial connection time = 357.240 ms
+tps = 1950.824572 (without initial connection time)
+statement latencies in milliseconds and failures:
+         0.002           0  \set aid random(1, 100000 * :scale)
+         0.001           0  \set bid random(1, 1 * :scale)
+         0.001           0  \set tid random(1, 10 * :scale)
+         0.000           0  \set delta random(-5000, 5000)
+         0.344           0  BEGIN;
+         0.595           0  UPDATE pgbench_accounts SET abalance = abalance + :delta WHERE aid = :aid;
+         0.452           0  SELECT abalance FROM pgbench_accounts WHERE aid = :aid;
+         0.490           0  UPDATE pgbench_tellers SET tbalance = tbalance + :delta WHERE tid = :tid;
+         0.674           0  UPDATE pgbench_branches SET bbalance = bbalance + :delta WHERE bid = :bid;
+         0.400           0  INSERT INTO pgbench_history (tid, bid, aid, delta, mtime) VALUES (:tid, :bid, :aid, :delta, CURRENT_TIMESTAMP);
+         2.158           0  END;
+ 
+High Concurrency test 
+pgbench (17.0)
+starting vacuum...end.
+transaction type: <builtin: TPC-B (sort of)>
+scaling factor: 50
+query mode: simple
+number of clients: 100
+number of threads: 10
+maximum number of tries: 1
+duration: 60 s
+number of transactions actually processed: 100096
+number of failed transactions: 0 (0.000%)
+latency average = 70.052 ms
+initial connection time = 2483.763 ms
+tps = 1427.505941 (without initial connection time)
+ 
+Short transaction test 
+pgbench (17.0)
+starting vacuum...end.
+transaction type: <builtin: TPC-B (sort of)>
+scaling factor: 50
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10000
+number of transactions actually processed: 10000/10000
+number of failed transactions: 0 (0.000%)
+latency average = 1.471 ms
+initial connection time = 70.952 ms
+tps = 679.983000 (without initial connection time)
+ 

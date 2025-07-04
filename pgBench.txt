@@ -1,0 +1,50 @@
+PostgreSQL Performance Testing using pgbench on Windows On-Premise Server 
+
+Today I explored the below tests with my on-premise PostgreSQL server and found useful insights across a complete range of performance, stress, and scalability dimensions:
+
+ Default TPC-B Mixed Workload
+ Read-Only Performance
+ Write-Heavy Load
+ Latency + Progress Measurement
+ High Concurrency
+ Short OLTP-style Transactions
+
+Below are the commands and what they simulate 
+
+Step 1: Initialization
+
+pgbench -i -s 50 -U postgres -d postgres
+
+Creates benchmarking tables
+Loads sample data (\~5 million rows at scale factor 50)
+
+Step 2: Core Workload Tests
+
+Default TPC-B Mixed Workload
+pgbench -c 10 -j 2 -T 60 -U postgres -d postgres
+
+Read-Only Performance
+pgbench -S -c 20 -j 4 -T 60 -U postgres -d postgres
+
+Write-Heavy Load
+pgbench -N -c 15 -j 3 -T 60 -U postgres -d postgres
+
+Latency + Progress Measurement
+pgbench -r -P 10 -c 10 -j 2 -T 60 -U postgres -d postgres
+
+Step 3: Stress & Concurrency Testing
+
+High Concurrency
+pgbench -c 100 -j 10 -T 60 -U postgres -d postgres
+
+Short OLTP-style Transactions
+pgbench -t 10000 -c 1 -j 1 -U postgres -d postgres
+
+Step 4: Custom SQL Simulation
+
+-- custom.sql
+BEGIN;
+SELECT * FROM pgbench_accounts WHERE aid = :aid;
+END;
+
+pgbench -f custom.sql -c 10 -j 2 -T 60 -U postgres -d postgres
